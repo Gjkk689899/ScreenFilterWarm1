@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:label="Screen Filter Warm"
         android:theme="@android:style/Theme.Holo">
-
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,5 +22,6 @@
         <service
             android:name=".FilterService"
             android:exported="false" />
+
     </application>
 </manifest>
